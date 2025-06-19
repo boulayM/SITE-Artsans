@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Graphik;
+  src: url(./assets/fonts/woff/Graphik-BlackItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Black-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Bold-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-BoldItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Extralight-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-ExtralightItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Light-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-LightItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Medium-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-MediumItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Regular-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-RegularItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-SemiboldItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Super-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-SuperItalic-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-Thin-Trial.woff);
+  src: url(./assets/fonts/woff/Graphik-ThinItalic-Trial.woff);
+    src: url(./assets/fonts/otf/Graphik-BlackItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Black-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Bold-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-BoldItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Extralight-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-ExtralightItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Light-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-LightItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Medium-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-MediumItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Regular-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-RegularItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-SemiboldItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Super-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-SuperItalic-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-Thin-Trial.otf) format(opentype);
+  src: url(./assets/fonts/otf/Graphik-ThinItalic-Trial.otf) format(opentype);
+
+}
+
+html {
+  font-family: Graphik, sans-serif;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#accueil{
+  font-weight: 300;
+}
+
+.titres {
+  font-weight: bolder;
+  color: #00497c;
+}
+.textes {
+  font-size: large;
+  color: #0074c7;
+}
+#top {
+  color: white;
+  box-shadow: 5px, 5px, 4px, 5px, black;
+}
+footer {
+    background-color: #0074c7;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+#texteFooter {
+  font-weight: 600;
+  color: white;
+  width: 100%;
+}
+#linksFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  text-align: center;
+}
+#linksFooter :any-link {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.texteError {
+  font-weight: bolder;
+  font-size: 2em;
+  color: #00497c;
+  display: flex;
+  justify-content: center;
+}
+
+#messageError {
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  font-weight: bolder;
+  margin-top: 10%;
+  color: #0074c7;
+}
+
+.titreSections {
+  font-weight: bold;
+  margin-left: 5%;
+  color: #0074c7;
+}
+
+.linkCard:any-link {
+  text-decoration: none;
+}
+
+#logo {
+  width: 30%;
+}
+#toggle {
+  margin-right: 5%;
+}
