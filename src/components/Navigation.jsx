@@ -8,7 +8,7 @@ export default function Navigation() {
   const [users,setUsers] = useState([]);
 
   const getUsers = async () => {
-    const res = await fetch ("http://localhost:3000/categories");
+    const res = await fetch ("https://mabdev.alwaysdata.net/node/categories");
     const json = await res.json();
     setUsers (json);
   }
