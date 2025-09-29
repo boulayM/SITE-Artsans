@@ -9,7 +9,7 @@ const { nom } = useParams();
     const [artisans, setArtisans] = useState([]);
   
     const getArtisan = async () => {
-      const res = await fetch (`http://localhost:3000/artisans/nom/${nom}`);
+      const res = await fetch (`https://mabdev.alwaysdata.net/node/artisans/nom/${nom}`);
       const json = await res.json();
       setArtisans (json);
     }
