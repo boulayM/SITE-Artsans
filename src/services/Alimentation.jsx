@@ -6,7 +6,7 @@ export default function ArtisanAlimentation() {
   const [artisans, setArtisans] = useState([]);
 
   const getArtisan = async () => {
-    const res = await fetch ("http://localhost:3000/alimentation");
+    const res = await fetch ("https://mabdev.alwaysdata.net/node/alimentation");
     const json = await res.json();
     setArtisans (json);
   }
