@@ -10,7 +10,7 @@ const FormDetails = ({nom}) => {
         <Form><br></br>
             <InputGroup size="sm">
                 <Form.Control type="text" placeholder="Artisan" className="custom-input me-2" 
-                formAction={`https://mabdev.alwaysdata.net/node/nom/${nom}`}/>
+                formAction={`https://mabdev.alwaysdata.net/node/artisans/nom/${nom}`}/>
                 <Link to={`/artisans/nom/${nom}`}>
                 <Button type="submit" className="custom-button"><svg xmlns="http://www.w3.org/2000/svg" 
                 width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
