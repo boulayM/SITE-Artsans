@@ -7,7 +7,7 @@ export default function Atdm() {
   const [artisans, setArtisans] = useState([]);
 
   const getArtisan = async () => {
-    const res = await fetch ("http://localhost:3000/atdm");
+    const res = await fetch ("https://mabdev.alwaysdata.net/node/atdm");
     const json = await res.json();
     setArtisans (json);
   }
